@@ -1,0 +1,46 @@
+.gamesuccessful{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index:-3;
+}
+.gamesuccessful img{
+	width: 100%;
+	height: 100%;
+}
+.gamefinecontent{
+	position: absolute;
+	top: 20%;
+	left: 25%;
+	width: 50%;
+	height: 40%;
+}
+.gamefinecontent p{
+	text-align: center;
+	color: white;
+	font-size: 1.2em;
+	margin-top: 20px;
+}
+#gamecontentxiaoshi{
+	opacity: 0;
+	animation: xiaoshi 2s 0s linear 1;
+	-webkit-animation: xiaoshi 2s 0s linear 1;
+}
+@-webkit-keyframes xiaoshi{
+	0%{
+		opacity: 1;
+	}
+	100%{
+		opacity: 0;
+	}
+}
+@keyframes xiaoshi{
+	0%{
+		opacity: 1;
+	}
+	100%{
+		opacity: 0;
+	}
+}

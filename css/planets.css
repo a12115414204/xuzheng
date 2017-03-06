@@ -1,0 +1,352 @@
+.planets{
+	width: 100%;
+	opacity: 0;
+}
+#planetdebris{
+	opacity: 1;
+	-webkit-animation: chuxian 3s linear 1;
+	animation: chuxian 3s linear 1;
+}
+@-webkit-keyframes chuxian{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+@keyframes chuxian{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+
+#planet5{
+	position: absolute;
+	top: 0.7rem;
+	left: 0rem;
+	width: 2rem;
+	-webkit-animation: yidong5 3s linear infinite;
+	animation: yidong5 3s linear infinite;
+}
+@-webkit-keyframes yidong5{
+	0%{
+		top: 0.7rem;
+		left: 0rem;
+	}
+	50%{
+		top: 0.8rem;
+		left: 0.2rem;
+	}
+	100%{
+		top: 0.7rem;
+		left: 0rem;
+	}
+}
+@keyframes yidong5{
+	0%{
+		top: 0.7rem;
+		left: 0rem;
+	}
+	50%{
+		top: 0.8rem;
+		left: 0.2rem;
+	}
+	100%{
+		top: 0.7rem;
+		left: 0rem;
+	}
+}
+#planet6{
+	position: absolute;
+	top: 2.5rem;
+	left: 2.5rem;
+	width: 2rem;
+	-webkit-animation: yidong6 3s linear infinite;
+	animation: yidong6 3s linear infinite;
+}
+@-webkit-keyframes yidong6{
+	0%{
+		top: 2.5rem;
+		left: 2.5rem;
+	}
+	50%{
+		top: 2.3rem;
+		left: 2.7rem;
+	}
+	100%{
+		top: 2.5rem;
+		left: 2.5rem;
+	}
+}
+@keyframes yidong6{
+	0%{
+		top: 2.5rem;
+		left: 2.5rem;
+	}
+	50%{
+		top: 2.3rem;
+		left: 2.7rem;
+	}
+	100%{
+		top: 2.5rem;
+		left: 2.5rem;
+	}
+}
+#planet7{
+	position: absolute;
+	top: 0rem;
+	left: 3rem;
+	width: 2rem;
+	-webkit-animation: yidong7 3s linear infinite;
+	animation: yidong7 3s linear infinite;
+}
+@-webkit-keyframes yidong7{
+	0%{
+		top: 0rem;
+		left: 3rem;
+	}
+	50%{
+		top: 0.2rem;
+		left: 3.1rem;
+	}
+	100%{
+		top: 0rem;
+		left: 3rem;
+	}
+}
+@keyframes yidong7{
+	0%{
+		top: 0rem;
+		left: 3rem;
+	}
+	50%{
+		top: 0.2rem;
+		left: 3.1rem;
+	}
+	100%{
+		top: 0rem;
+		left: 3rem;
+	}
+}
+#planet8{
+	position: absolute;
+	top: 5.5rem;
+	left: 0.2rem;
+	width: 1.5rem;
+	-webkit-animation: yidong8 3s linear infinite;
+	animation: yidong8 3s linear infinite;
+}
+@-webkit-keyframes yidong8{
+	0%{
+		top: 5.5rem;
+		left: 0.2rem;
+	}
+	50%{
+		top: 5.3rem;
+		left: 0.1rem;
+	}
+	100%{
+		top: 5.5rem;
+		left: 0.2rem;
+	}
+}
+@keyframes yidong8{
+	0%{
+		top: 5.5rem;
+		left: 0.2rem;
+	}
+	50%{
+		top: 5.3rem;
+		left: 0.1rem;
+	}
+	100%{
+		top: 5.5rem;
+		left: 0.2rem;
+	}
+}
+#planet9{
+	position: absolute;
+	top: 7rem;
+	left: 2.5rem;
+	width: 1rem;
+	-webkit-animation: yidong9 3s linear infinite;
+	animation: yidong9 3s linear infinite;
+}
+@-webkit-keyframes yidong9{
+	0%{
+		top: 7rem;
+		left: 2.5rem;
+	}
+	50%{
+		top: 7.2rem;
+		left: 2.6rem;
+	}
+	100%{
+		top: 7rem;
+		left: 2.5rem;
+	}
+}
+@keyframes yidong9{
+	0%{
+		top: 7rem;
+		left: 2.5rem;
+	}
+	50%{
+		top: 7.2rem;
+		left: 2.6rem;
+	}
+	100%{
+		top: 7rem;
+		left: 2.5rem;
+	}
+}
+#planet10{
+	position: absolute;
+	top: 6rem;
+	left: 4.5rem;
+	width: 1.2rem;
+	-webkit-animation: yidong10 3s linear infinite;
+	animation: yidong10 3s linear infinite;
+}
+@-webkit-keyframes yidong10{
+	0%{
+		top: 6rem;
+		left: 4.5rem;
+	}
+	50%{
+		top: 6.2rem;
+		left: 4.7rem;
+	}
+	100%{
+		top: 6rem;
+		left: 4.5rem;
+	}
+}
+@keyframes yidong10{
+	0%{
+		top: 6rem;
+		left: 4.5rem;
+	}
+	50%{
+		top: 6.2rem;
+		left: 4.7rem;
+	}
+	100%{
+		top: 6rem;
+		left: 4.5rem;
+	}
+}
+#planet11{
+	position: absolute;
+	top: 8.5rem;
+	left: 1rem;
+	width: 1.5rem;
+	-webkit-animation: yidong11 3s linear infinite;
+	animation: yidong11 3s linear infinite;
+}
+@-webkit-keyframes yidong11{
+	0%{
+		top: 8.5rem;
+		left: 1rem;
+	}
+	50%{
+		top: 8.3rem;
+		left: 1.2rem;
+	}
+	100%{
+		top: 8.5rem;
+		left: 1rem;
+	}
+}
+@keyframes yidong11{
+	0%{
+		top: 8.5rem;
+		left: 1rem;
+	}
+	50%{
+		top: 8.3rem;
+		left: 1.2rem;
+	}
+	100%{
+		top: 8.5rem;
+		left: 1rem;
+	}
+}
+#planet12{
+	position: absolute;
+	top: 7rem;
+	left: 3rem;
+	width: 1.5rem;
+	-webkit-animation: yidong12 3s linear infinite;
+	animation: yidong12 3s linear infinite;
+}
+@-webkit-keyframes yidong12{
+	0%{
+		top: 8rem;
+		left: 3rem;
+	}
+	50%{
+		top: 8.2rem;
+		left: 3.1rem;
+	}
+	100%{
+		top: 8rem;
+		left: 3rem;
+	}
+}
+@keyframes yidong12{
+	0%{
+		top: 8rem;
+		left: 3rem;
+	}
+	50%{
+		top: 8.2rem;
+		left: 3.1rem;
+	}
+	100%{
+		top: 8rem;
+		left: 3rem;
+	}
+}
+.tubiao{
+	position: absolute;
+	bottom: 0.3rem;
+	left: 2rem;
+	width: 2.5rem;
+	color: white;
+	opacity: 0;
+}
+#tubiaos{
+	-webkit-animation: shan 2s linear infinite;
+	animation: shan 2s linear infinite;
+}
+@-webkit-keyframes shan{
+	0%{
+		opacity: 0;
+	}
+	50%{
+		opacity: 1;
+	}
+	100%{
+		opacity: 0;
+	}
+}
+@keyframes shan{
+	0%{
+		opacity: 0;
+	}
+	50%{
+		opacity: 1;
+	}
+	100%{
+		opacity: 0;
+	}
+}
+.tubiao p{
+	width: 100%;
+	text-align: center;
+}

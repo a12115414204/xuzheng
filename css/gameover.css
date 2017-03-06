@@ -1,0 +1,73 @@
+.gameover{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+.gameover img{
+	width: 100%;
+}
+.oneMoreTime{
+	position: absolute;
+	top: 5.9rem;
+	left: 2rem;
+	width: 2.3rem;
+	height: 0.5rem;
+}
+.gameShows{
+	position: absolute;
+	top: 6.5rem;
+	left: 2rem;
+	width: 2.3rem;
+	height: 0.5rem;
+}
+.gameshowss{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+.gameshowss img{
+	width: 100%;
+}
+.gameshowssstop{
+	position: absolute;
+	top: 2.45rem;
+	left: 4.6rem;
+	width: 0.5rem;
+	height: 0.5rem;
+}
+.gamesowsscontent{
+	position: absolute;
+	top: 3.3rem;
+	left: 1.2rem;
+	width: 4rem;
+	height: 4.5rem;
+	overflow: hidden;
+	color: white;
+	padding: -20px;
+}
+#wrapper{
+	width: 100%;
+	height:100%;
+	position: relitive;
+}
+#scroller{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+.gamesowsscontent h2{
+	color: blueviolet;
+}
+.gamesowsscontent p{
+	margin-left: 5px;
+	margin-top: 10px;
+	font-size: 0.8em;
+	line-height: 25px;
+}

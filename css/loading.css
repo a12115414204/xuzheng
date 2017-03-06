@@ -1,0 +1,44 @@
+html,body{
+	width: 100%;
+	height: 100%;
+	font-size: 15px;
+	overflow: hidden;
+	position: relative;
+}
+.content{
+	width: 100%;
+}
+.loadIng{
+	width: 100%;
+}
+.loading{
+	width:100%;
+}
+.loading img{
+	width: 100%;
+	height:11.45rem;
+}
+.loading_font{
+	position: absolute;
+	top: 3.53rem;
+	left: 2.5rem;
+	width: 2.9rem;
+	height: 3.9rem;
+	transform-origin:30% 50%;
+	-webkit-animation:reading 10s 0s  linear infinite;
+	animation:reading 10s 0s linear infinite;
+}
+.loading_font img{
+	width: 100%;
+}
+@-webkit-keyframes reading{
+	0%{
+		transform: rotateZ(0deg);
+	}
+	50%{
+		transform: rotateZ(-180deg);
+	}
+	100%{
+		transform: rotateZ(-360deg);
+	}
+}

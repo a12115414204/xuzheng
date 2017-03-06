@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>徐峥</title>
+		<script>
+			var resizeEvent =  'orientationchange' in window ? 'orientationchang' :'resize';
+			var rescale =function(){
+				var deviceWidth = document.documentElement.clientWidth;
+				document.documentElement.style.fontSize = deviceWidth / 6.4 + 'px';
+			};
+			rescale();
+			window.addEventListener(resizeEvent,rescale,false);
+			document.addEventListener('DOMContentLoaded',rescale,false);
+			document.addEventListener('touchmove', function(e){e.preventDefault()}, false);
+       </script>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/loading.css"/>
+		<link rel="stylesheet" type="text/css" href="css/head.css"/>
+		<link rel="stylesheet" type="text/css" href="css/xuzheng.css"/>
+		<link rel="stylesheet" type="text/css" href="css/video.css"/>
+		<link rel="stylesheet" type="text/css" href="css/xuzhengdebris.css"/>
+		<link rel="stylesheet" type="text/css" href="css/planets.css"/> 
+		<link rel="stylesheet" type="text/css" href="css/diyiguan.css"/>
+		<link rel="stylesheet" type="text/css" href="css/two.css"/>
+		<link rel="stylesheet" type="text/css" href="css/three.css"/>
+		<link rel="stylesheet" type="text/css" href="css/four.css"/>
+		<link rel="stylesheet" type="text/css" href="css/five.css"/>
+		<link rel="stylesheet" type="text/css" href="css/six.css"/>
+		<link rel="stylesheet" type="text/css" href="css/seven.css"/>
+		<link rel="stylesheet" type="text/css" href="css/eight.css"/>
+		<link rel="stylesheet" type="text/css" href="css/gameover.css"/>
+		<link rel="stylesheet" type="text/css" href="css/gamesuccessful.css"/>
+		<link rel="stylesheet" type="text/css" href="css/gamephones.css"/>
+		<link rel="stylesheet" type="text/css" href="css/gamesuipian.css"/>
+	</head>
+	<body>
+		<div class="content">
+			<audio id="dazi" src="music/背景文字页-打字音效.mp3" loop="loop" preload="preload"></audio>
+			<audio id="backgroundmusic" src="music/backgroundmusics.mp3" loop="loop" preload="preload"></audio>
+			<audio id="countdown" src="music/倒计时音效 （节）.mp3" loop="loop" preload="preload"></audio>
+			<header class="loadIng">
+				<div class="loading">
+					<img src="img/jiazai/page-home-loddingbackground.png"/>
+				</div>
+				<div class="loading_font">
+					<img src="img/jiazai/page-home-loddingfont.png"/>
+				</div>
+			</header>
+			<div class="musicbtn">
+				<img id="music_on" src="img/music/music-on.png"/>
+			</div>
+			<footer class="head">
+				<div class="backgrounds">
+					<img src="img/background/word_bg.jpeg"/> 
+				</div>
+				<div class="planet">
+					<img id="planet1" src="img/planet/planet1.png"/>
+					<img id="planet2" src="img/planet/planet2.png"/>
+					<img id="planet3" src="img/planet/planet3.png"/>
+					<img id="planet4" src="img/planet/planet4.png"/>
+				</div>
+				<div class="background_font">
+				</div>
+				<div class="xuzheng">
+					<img id="superan_glass" src="img/superan/super_glasses.png"/>
+					<img id="super_heads" src="img/superan/super_head.png"/>
+					<img id="superman" src="img/superan/superman1.png"/>
+				</div>
+				<div class="video">
+					<img id="videos" src="img/phoneBroken/phone.png"/>
+				</div>
+				<div class="debris">
+					<img id="chip1" src="img/phoneBroken/chip1.png"/>
+					<img id="chip2" src="img/phoneBroken/chip2.png"/>
+					<img id="chip3" src="img/phoneBroken/chip3.png"/>
+					<img id="chip4" src="img/phoneBroken/chip4.png"/>
+					<img id="chip5" src="img/phoneBroken/chip5.png"/>
+					<img id="chip6" src="img/phoneBroken/chip6.png"/>
+					<img id="chip7" src="img/phoneBroken/chip7.png"/>
+					<img id="chip8" src="img/phoneBroken/chip8.png"/>
+				</div>
+				<div class="xuzhenghead">
+					<div id="xuzheng1">
+						<img src="img/phoneBroken/xuzheng2.png"/>
+					</div>
+					<div id="xuzheng2">
+						<img src="img/phoneBroken/xuzheng4.png"/>
+					</div>
+					<div id="xuzheng3">
+						<img src="img/phoneBroken/xuzheng7.png"/>
+					</div>
+					<div id="xuzheng4">
+						<img src="img/phoneBroken/xuzheng1.png"/>
+					</div>
+					<div id="xuzheng5">
+						<img src="img/phoneBroken/xuzheng8.png"/>
+					</div>
+					<div id="xuzheng6">
+						<img src="img/phoneBroken/xuzheng3.png"/>
+					</div>
+					<div id="xuzheng7">
+						<img src="img/phoneBroken/xuzheng5.png"/>
+					</div>
+					<div id="xuzheng8">
+						<img src="img/phoneBroken/xuzheng6.png"/>
+					</div>
+				</div>
+				<div class="planets">
+					<img id="planet5" src="img/planet/planet2/planet5.png"/>
+					<img id="planet6" src="img/planet/planet2/planet6.png"/>
+					<img id="planet7" src="img/planet/planet2/planet7.png"/>
+					<img id="planet8" src="img/planet/planet2/planet8.png"/>
+					<img id="planet9" src="img/planet/planet2/planet9.png"/>
+					<img id="planet10" src="img/planet/planet2/planet10.png"/>
+					<img id="planet11" src="img/planet/planet2/planet11.png"/>
+					<img id="planet12" src="img/planet/planet2/planet12.png"/>
+				</div>
+				<div class="tubiao">
+					<p>找齐徐峥 启动能量</p><br/>
+					<p>^</p>
+				</div>
+				<div class="gamexulaoshi">
+					<p>去往星图中,请稍候~~~~~~~~~~</p>
+				</div>
+				<div class="first">
+					<img src="img/chuangguan/diyiguan/diyiguan.png"/>
+					<div class="first_1"></div>
+					<div class="first_2"></div>
+					<div class="first_3"></div>
+					<div class="first_4"></div>
+					<div class="first_tan">
+						<img src="img/chuangguan/diyiguan/diyiguantan.png"/>
+					</div>
+					<div class="time">
+						<span id="m">30</span>
+						<span id="s">60</span>
+					</div>
+				</div>
+				<div class="two">
+					<img src="img/chuangguan/dierguan/dierguan.png"/>
+					<div class="two_1"></div>
+					<div class="two_2"></div>
+					<div class="two_3"></div>
+					<div class="two_4"></div>
+					<div class="two_5"></div>
+					<div class="two_6"></div>
+					<div class="two_7"></div>
+					<div class="two_8"></div>
+					<div class="two_9"></div>
+					<div class="time2">
+						<span id="m2"></span>
+						<span id="s2"></span>
+					</div>
+					<div class="two_tan">
+						<img src="img/chuangguan/dierguan/dierguantan.png"/>
+					</div>
+				</div>
+				<div class="three">
+					<img src="img/chuangguan/disanguan/disiguan.png"/>
+					<div class="three_kuang">
+						
+					</div>
+					<div class="time3">
+						<span id="m3"></span>
+						<span id="s3"></span>
+					</div>
+					<div class="three_tan">
+						<img src="img/chuangguan/disanguan/disanguantan.png"/>
+					</div>
+				</div>
+				<div class="four">
+					<img src="img/chuangguan/fourguan/four.png"/>
+					<div class="four_kuang">
+						
+					</div>
+					<div class="time4">
+						<span id="m4"></span>
+						<span id="s4"></span>
+					</div>
+					<div class="four_tan">
+						<img src="img/chuangguan/fourguan/fourtan.png"/>
+					</div>
+				</div>
+				<div class="five">
+					<img src="img/chuangguan/fiveguan/five.png"/>
+					<div class="five_kuang">
+						
+					</div>
+					<div class="time5">
+						<span id="m5"></span>
+						<span id="s5"></span>
+					</div>
+					<div class="five_tan">
+						<img src="img/chuangguan/fiveguan/fivetan.png"/>
+					</div>
+				</div>
+				<div class="six">
+					<img src="img/chuangguan/sixguan/six.png"/>
+					<div class="six_kuang">
+						
+					</div>
+					<div class="time6">
+						<span id="m6"></span>
+						<span id="s6"></span>
+					</div>
+					<div class="six_tan">
+						<img src="img/chuangguan/sixguan/sixtan.png"/>
+					</div>
+				</div>
+				<div class="seven">
+					<img src="img/chuangguan/seven/seven.png"/>
+					<div class="seven_kuang">
+						
+					</div>
+					<div class="time7">
+						<span id="m7"></span>
+						<span id="s7"></span>
+					</div>
+					<div class="seven_tan">
+						<img src="img/chuangguan/seven/seventan.png"/>
+					</div>
+				</div>
+				<div class="eight">
+					<img src="img/chuangguan/eight/eight.png"/>
+					<div class="eight_kuang">
+						
+					</div>
+					<div class="time8">
+						<span id="m8"></span>
+						<span id="s8"></span>
+					</div>
+					<div class="eight_tan">
+						<img src="img/chuangguan/eight/eighttan.png"/>
+					</div>
+				</div>
+				<div class="gameover">
+					<img src="img/chuangguan/gameover.png"/>
+					<div class="oneMoreTime">
+					</div>
+					<div class="gameShows">
+					</div>
+				</div>
+				<div class="gameshowss">
+					<img src="img/gameshow.png"/>
+					<div class="gamesowsscontent">
+						<div id="wrapper">
+					        <div id="scroller">
+					           <h2>游戏规则：</h2>
+								<p>1.玩家要在规定时间内，依次从2*2至7*7的方格中找徐峥。点对徐峥，即可过关。</p>
+								<p>2.每找到一个徐峥，得到一个vivo手机“碎片”。集齐8块“碎片”，即获得一次抽奖机会。</p>
+								<p>3.中奖玩家请正确填写信息。信息填写错误或未填写的玩家将被取消中奖资格。</p>
+								<p>4.每个ID只有一次中奖机会。</p>
+								<p>5.恶意刷奖的玩家一经发现将取消抽奖资格。</p>
+								<h2>活动时间：</h2>
+								<p>2015年9月28至10月2日</p>
+								<h2>游戏奖励：</h2>						
+								<p>一等奖：vivo X5Pro智能手机 2台</p>
+								<p>二等奖：vivo充电宝 10个</p>
+								<p>三等奖：vivo耳机 20个</p>
+								<p>四等奖：《港囧》电影票20套（每套2张）</p>
+								<p>五等奖：《港囧》主创签名剧照 50张</p>
+								<p>六等奖：vivo官方旗舰店100元代金券 20张</p>
+								<p>注：电影票为格瓦拉兑换券，中奖玩家请自行兑换</p>
+					        </div>
+						</div>
+					</div>
+					<div class="gameshowssstop">
+					</div>
+				</div>
+			</footer>
+			<section class="gamesuccessful">
+				<img src="img/gamefine/xuzhengbg.png"/>
+				<div class="gamefinecontent"></div>
+				<div class="gamephones">
+					<img src="img/gamefine/shouji/plones.png"/>
+					<div class="gamephone_start"></div>
+					<div class="gamephone_gameshow"></div>
+					<div class="gamephone_prize">
+						<div class="gamephone_retrungame">
+							
+						</div>
+					</div>
+				</div>
+				<div class="gamesuipian">
+					<div class="gamesuipian1">
+						<img src="img/gamefine/1.png"/>
+					</div>
+					<div class="gamesuipian2">
+						<img src="img/gamefine/2.png"/>
+					</div>
+					<div class="gamesuipian3">
+						<img src="img/gamefine/3.png"/>
+					</div>
+					<div class="gamesuipian4">
+						<img src="img/gamefine/5.png"/>
+					</div>
+					<div class="gamesuipian5">
+						<img src="img/gamefine/6.png"/>
+					</div>
+					<div class="gamesuipian6">
+						<img src="img/gamefine/4.png"/>
+					</div>
+					<div class="gamesuipian7">
+						<img src="img/gamefine/7.png"/>
+					</div>
+					<div class="gamesuipian8">
+						<img src="img/gamefine/8.png"/>
+					</div>
+				</div>
+			</section>
+		</div>
+		<script src="js/jquery-2.1.3.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/loading.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/iscroll.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			//滚动条
+						var initscroll = function(){
+							myScroll = new IScroll('#wrapper',{
+									scrollbars:true,
+									mouseWheel:true,
+									interactiveScrollbars:true,
+									shrinkScrollbars:'scale',
+									fadeScrollbars:true,
+									tap:true,
+							});
+						}
+						initscroll();
+		</script>
+	</body>
+</html>

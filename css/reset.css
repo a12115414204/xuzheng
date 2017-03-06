@@ -1,0 +1,8 @@
+ /*外边距格式化*/
+	html,body,p,span,ul,ol,li,div,img,header,footer{
+		margin: 0;
+	}
+ /*内边距格式化*/
+	html,body,p,span,ul,ol,li,div,img,header,footer{
+		padding: 0;
+	}

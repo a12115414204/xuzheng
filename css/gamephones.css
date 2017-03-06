@@ -1,0 +1,61 @@
+.gamephones{
+	position: absolute;
+	top: 20%;
+	left: 20%;
+	width: 3.68rem;
+	height: 7.44rem;
+	opacity: 0;
+}
+#gamephone{
+	opacity: 1;
+	animation: xs 2s 0s ease-in-out 1;
+	-webkit-animation: xs 2s 0s ease-in-out 1;
+}
+@-webkit-keyframes xs{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+@keyframes xs{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+.gamephone_start{
+	position: absolute;
+	top: 5.2rem;
+	left: 0.5rem;
+	width: 2.6rem;
+	height: 0.5rem;
+}
+.gamephone_gameshow{
+	position: absolute;
+	top: 5.8rem;
+	left: 0.5rem;
+	width: 2.6rem;
+	height: 0.5rem;
+}
+.gamephone_prize{
+	position: absolute;
+	top:-2.3rem;
+	left: -1.28rem;
+	width: 6.4rem;
+	height: 11.45rem;
+	display: none;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.gamephone_retrungame{
+	position: absolute;
+	top: 6.9rem;
+	left: 1.9rem;
+	width: 2.5rem;
+	height: 0.5rem;
+}
